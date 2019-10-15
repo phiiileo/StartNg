@@ -115,38 +115,29 @@
             background-size: cover;
         }
         
-        .loren-ipsum {
-            background-image: url('https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570916337/startng/Rectangle_10_pwiqsf.png');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            text-align: center;
-        }
 
-        .loren-ipsum .buttonC {
-            width: 100%;
-            margin: 0 auto;
-        }
-        .loren-ipsum .btn {
-            background-color: #44CF6C;
-            margin-right: 20px;
-            width: auto;
-        }
-        
         .priviledge {
             background-color: #FCFCFC;
+            padding: 40px;
         }
         
         .started {
             background-color: #FCFCFC;
         }
         
-        .global-reach {
-            background-image: url('https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570920182/startng/Rectangle_57_xdcvbs.png');
+        .global_reach {
+            background-image: url('https://res.cloudinary.com/sgnolebagabriel/image/upload/v1570916337/startng/Rectangle_10_pwiqsf.png');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            color: #3A0842;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .global_reach-button a {
+            margin-right: 40px;
+            border-radius: 10px;
+            background-color: #44CF6C;
         }
 
         .rHeader {
@@ -174,6 +165,16 @@
 
         .carousel {
             margin: 50px auto;
+            height: 500px;
+            margin-bottom: 150px;
+        }
+
+        .carousel ol {
+            bottom: -40px;
+        }
+        .carousel ol li {
+            border: 1px solid black;
+            background-color: black;
         }
 
         .carousel .left, .carousel .right {
@@ -181,10 +182,25 @@
             color: black;
             margin-left: -20px;
         }
-            @media screen and (min-width: 800px){
+
+        .privP {
+            font-weight: bolder;
+        }
+            @media screen and (min-width: 750px){
+
+
+                .global_reach-content {
+                    width: 70%;
+                    margin: 20px auto;
+                }
                 .carousel {
                     width: 600px;
-                    margin: 10px auto;
+                    margin: 50px auto;
+                    margin-bottom: 150px;
+                }
+                
+                .carousel ol {
+                    bottom: -50px;
                 }
 
                 .carousel .left{
@@ -202,6 +218,10 @@
 
 
             @media screen and (min-width: 1000px){
+
+                .global_reach-content {
+                width: 50%;
+                }
                 .carousel .left {
                     margin-left: -200px;
                 }
@@ -270,20 +290,15 @@
         </div>
     </div>
 
-    <div class="container-fluid loren-ipsum pt-5 pb-5">
-        <div class="col-md-6 offset-md-3 text-center">
-            <p style="color: #fff;"> Lorem ipsum was going to church and she forgot to ferd <br> nd dffdss wesa dsea wxli sde zdxd asw df sds dcdsc <br> dfvdfvdf csd dscsdc dvsdd sdvsdv vfv vfv sdcd fvfv dede <br> ws a as ff g ss ddcdd fr es waa dde saw asz cde ers ffggt <br>                sdawd dfdv ddv dssdsx xsccdvdvf ss </p>
+    <div class="global_reach">
+        <div class="global_reach-content">
+            <p style="color: #fff;"> Lorem ipsum was going to church and she forgot to ferd nd dffdss wesa dsea wxli sde zdxd asw df sds dcdsc dfvdfvdf csd dscsdc dvsdd sdvsdv vfv vfv sdcd fvfv dede ws a as ff g ss ddcdd fr es waa dde saw asz cde ers ffggt                sdawd dfdv ddv dssdsx xsccdvdvf ss </p>
+        <div class="global_reach-button">
+                <a href="courses.html" class="btn btn-success pr-5 pl-5">Free Courses</a>
+                <a href="courses.html" class="btn btn-success pr-5 pl-5">Paid Courses</a>
         </div>
-        <div class="col-md-4 offset-md-4">
-            <div class="row buttonC">
-                <div class="col-xs-6">
-                    <a href="courses.html" class="btn btn-success pr-5 pl-5">Free Courses</a>
-                </div>
-                <div class="col-xs-6">
-                    <a href="courses.html" class="btn btn-success pr-5 pl-5">Paid Courses</a>
-                </div>
-            </div>
-        </div>
+ 
+    </div>
     </div>
 
     <section id="carousel" >
@@ -302,7 +317,8 @@
                     <img src="https://res.cloudinary.com/phiileo/image/upload/v1571153528/carousel_image1_s7r1st.png" alt="carosuel image">
             </div>
             <div class="item">
-                    <img src="https://res.cloudinary.com/phiileo/image/upload/v1571154284/carousel_image2_hjxvfd.png" alt="carosuel image">            </div>
+                    <img src="https://res.cloudinary.com/phiileo/image/upload/v1571154284/carousel_image2_hjxvfd.png" alt="carosuel image">            
+            </div>
             <div class="item">
                     <img src="https://res.cloudinary.com/phiileo/image/upload/v1571153528/carousel_image1_s7r1st.png" alt="carosuel image">
             </div>
@@ -321,8 +337,8 @@
     
         </section>
 
-    <div class="container-fluid priviledge pt-5 pb-5">
-        <div class="col-md-6 offset-md-3 text-center">
+    <div class="container priviledge pt-5 pb-5">
+        <div class="col-md-6 offset-md-3 text-center privP">
             <p style="color: #3A0842;">On Start.ng, you are privileged to</p>
         </div>
         <div class="row mt-5 pt-3">
